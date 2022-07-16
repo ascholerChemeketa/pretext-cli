@@ -34,6 +34,12 @@
            in your subset build -->
       <xmlid-root>ch_first</xmlid-root>
     </target>
+    <target name="runestone">
+      <format>html</format>
+      <source>source/main.ptx</source>
+      <publication>publication/publication-runestone.ptx</publication>
+      <output-dir>output/runestone</output-dir>
+    </target>
   </targets>
   <executables>
       <latex>latex</latex>
